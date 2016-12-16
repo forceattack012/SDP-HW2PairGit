@@ -23,6 +23,13 @@ int main()
       }
       printf("\n");
   }
-
+  
+  printf("\n\n");
+  
+  for(int i=0;i<2;i++)
+  {
+      r[i]=rand()%10;
+      printf("%d",r[i]);
+  }
   return 0;
 }
